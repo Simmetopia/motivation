@@ -6,7 +6,8 @@ const motivationalQuotes = [
     "Får satan hvor er du lækker!",
     "Du er en true champion",
     "Der findes ingen der er lige så sej som dig!",
-    "Du er igang med at ændre verden!"
+    "Du er igang med at ændre verden!",
+    "I'm the best, fuck the rest!"
 ]
 
 

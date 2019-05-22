@@ -16,7 +16,7 @@
     const intervalId = window.setInterval(() => {
       theQuote = $quotes[getRandNum()];
       whichToRender = !whichToRender;
-    }, 8000);
+    }, 7000);
     return () => {
       window.clearInterval(intervalId);
     };
