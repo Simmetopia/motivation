@@ -28,6 +28,7 @@
     display: flex;
     height: 100%;
     width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 3em;
@@ -45,8 +46,8 @@
 <svelte:head>
   <title>Motivator</title>
 </svelte:head>
-
 <div>
+  <img src="mailsignatur.gif" alt="winkingfig" />
   {#if whichToRender}
     <h1 in:fly={{ duration: animationDuration, y: -500 }}> {theQuote} </h1>
   {:else}
