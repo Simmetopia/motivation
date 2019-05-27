@@ -35,6 +35,7 @@
   }
   h1 {
     text-align: center;
+    margin-top: 1em;
   }
   @media only screen and (max-width: 600px) {
     div {
