@@ -48,10 +48,10 @@
 </svelte:head>
 <div>
   {#if whichToRender}
-    <img src="mailsignatur.gif" alt="winkingfig" />
+    <img src="it-minds_logo.png" alt="winkingfig" />
     <h1 in:fly={{ duration: animationDuration, y: -500 }}> {theQuote} </h1>
   {:else}
-    <img src="mailsignatur.gif" alt="winkingfig" />
+    <img src="it-minds_logo.png" alt="winkingfig" />
     <h1 in:fly={{ duration: animationDuration, x: 500 }}> {theQuote} </h1>
   {/if}
 </div>
